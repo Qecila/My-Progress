@@ -24,11 +24,10 @@ function calcularNivel(vitorias, derrotas) {
     return { saldoVitorias, nivel };
 }
 
-// Exemplo de uso da função
-const vitorias = 91; // substitua por um valor fixo ou entrada do usuário
-const derrotas = 23; // substitua por um valor fixo ou entrada do usuário
+// Colocar um valor aleatório
+const vitorias = 91; 
+const derrotas = 23; 
 const resultado = calcularNivel(vitorias, derrotas);
 
-// Exibindo a mensagem final
+// Exibir a mensagem final
 console.log(`O Herói tem de saldo de ${resultado.saldoVitorias} está no nível de ${resultado.nivel}`);
-
